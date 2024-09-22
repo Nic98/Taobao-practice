@@ -1,8 +1,6 @@
 .sectors {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 16px;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
@@ -12,6 +10,7 @@
   margin-top: 6px;
   margin-bottom: 12px;
   border-radius: 16px;
+  background-color: rgb(255, 255, 255);
 }
 
 .sector-header {
@@ -26,8 +25,8 @@
 
 .sector-title {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: flex;
   align-items: flex-end;
   line-height: 1;
   width: 100%;

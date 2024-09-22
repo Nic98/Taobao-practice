@@ -1,9 +1,7 @@
 .sectors {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 16px;
-  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
@@ -12,6 +10,7 @@
   margin-top: 6px;
   margin-bottom: 12px;
   border-radius: 16px;
+  background-color: rgb(255, 255, 255);
 }
 
 .sector-header {
@@ -52,7 +51,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 800px) {
   .sectors {
-      width:530px
+      width:528px
   }
 }
 

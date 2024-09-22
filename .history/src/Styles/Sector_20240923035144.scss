@@ -1,9 +1,8 @@
 .sectors {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  gap: 16px;
-  flex-direction: row;
+  gap: 100px;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
@@ -52,7 +51,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 800px) {
   .sectors {
-      width:530px
+      width:528px
   }
 }
 
