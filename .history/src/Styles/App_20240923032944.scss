@@ -1,0 +1,19 @@
+$taobao-color: #ff5000;
+
+.App {
+  text-align: center;
+  background-color: #f0ecec;
+}
+
+.header-text {
+  color: $taobao-color;
+  font-size:calc(10px + 1vmin);
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
