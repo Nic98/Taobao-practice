@@ -1,0 +1,21 @@
+.sector {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+}
+
+.sector-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin: 0px 0px 12px 12px;
+}
