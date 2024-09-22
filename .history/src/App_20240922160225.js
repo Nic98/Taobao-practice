@@ -10,9 +10,7 @@ function App() {
       </header>
 
       <div className="contents">
-        <div className="sector">
-          
-        </div>
+        <div className="sector"></div>
       </div>
       
     </div>
