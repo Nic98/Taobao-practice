@@ -1,8 +1,9 @@
 import React from 'react'; 
 import '../Styles/Sector.scss';
-import { Button } from 'antd';
 
-export default function Sector(sectors: Array<any>) {
+
+export default function Sector(sectors: any) {
+  
 
   return (
     <div className='sectors'>
@@ -24,14 +25,9 @@ export default function Sector(sectors: Array<any>) {
               </div>
             ))}
           </div>
-
-          <div>
-            <Button>展示更多 V</Button>
-          </div>
-
         </div>
+
       ))}
     </div>
   );
-
 }

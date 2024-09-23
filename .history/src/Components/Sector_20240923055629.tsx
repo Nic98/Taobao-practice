@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styles/Sector.scss';
 import { Button } from 'antd';
 
-export default function Sector(sectors: Array<any>) {
+export default function Sector(sectors: []) {
 
   return (
     <div className='sectors'>

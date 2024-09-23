@@ -12,7 +12,6 @@ interface DescCardProps {
 }
 
 export default function ProductCard(props: DescCardProps) { 
-  
   const {image, title, promotion, price } = props;
   return (
     <Card
@@ -24,5 +23,5 @@ export default function ProductCard(props: DescCardProps) {
       <div className='price'> {"¥" + price} </div>
     </Card>
   );
-
+  
 }
