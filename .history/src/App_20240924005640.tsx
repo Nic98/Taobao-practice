@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { React, useState } from 'react';
 import './Styles/App.scss';
 import ProductCard from './Components/ProductCard.tsx';
 import Sector from './Components/Sector.tsx';
@@ -26,7 +27,7 @@ const App: React.FC = () => {
   ];
 
   const sector_products = [...Array(2)].fill(repeat_products);
-  
+
   const sectors = [
     {
       products: sector_products[0],
@@ -38,9 +39,9 @@ const App: React.FC = () => {
     },
   ];
 
-  const [sector_product, setProducts] = useState(sector_products);
-  const [desc, setTitles] = useState(sector_products);
-  const [sector, setSectors] = useState(sectors);
+  const [sector_product, setProducts] = React.useState(sector_products);
+  const [desc, setTitles] = React.useState(sector_products);
+  const [sector, setSectors] = React.useState(sectors);
 
   
   return (

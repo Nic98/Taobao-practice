@@ -13,7 +13,7 @@ interface DescCardProps {
 
 type Props = DescCardProps;
 
-export default function ProductCard(props: Props) {
+export default function ProductCard(props: DescCardProps) { 
   
   const {image, title, promotion, price } = props;
   return (

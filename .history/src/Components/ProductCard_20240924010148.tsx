@@ -11,7 +11,7 @@ interface DescCardProps {
   price: number;
 }
 
-type Props = DescCardProps;
+type Props {= DescCardProps;}
 
 export default function ProductCard(props: Props) {
   

@@ -5,15 +5,13 @@ import { Card } from 'antd';
 const { Meta } = Card;
 
 interface DescCardProps {
-  image: string;
+  image?: string;
   title?: string;
-  promotion: string;
+  promotion?: string;
   price: number;
 }
 
-type Props = DescCardProps;
-
-export default function ProductCard(props: Props) {
+export default function ProductCard(props: DescCardProps) { 
   
   const {image, title, promotion, price } = props;
   return (

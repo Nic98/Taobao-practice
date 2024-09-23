@@ -48,6 +48,7 @@ const App: React.FC = () => {
       
       <header className="App-header">
         <div className="header-text">淘宝 | 极有家</div>
+        {/* button to download all images */}
       </header>
 
       <div className="contents">

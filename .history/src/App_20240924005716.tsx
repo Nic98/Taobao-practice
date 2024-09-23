@@ -26,7 +26,7 @@ const App: React.FC = () => {
   ];
 
   const sector_products = [...Array(2)].fill(repeat_products);
-  
+
   const sectors = [
     {
       products: sector_products[0],
