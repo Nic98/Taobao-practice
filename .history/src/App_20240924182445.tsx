@@ -39,7 +39,7 @@ const App: React.FC = () => {
   ];
 
   const [sector_product, setProducts] = useState(sector_products);
-  const [desc, setDesc] = useState(sector_descs);
+  const [desc, setDesc] = useState(sector_products);
   const [sector, setSectors] = useState(sectors);
 
   
