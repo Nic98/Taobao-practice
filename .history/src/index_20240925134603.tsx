@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     <App />
     {/* a button to download all images (->zip) */}
-    <DownloadBtn/>
+    <DownloadBtn> aa </DownloadBtn>
   </React.StrictMode>
 );
 

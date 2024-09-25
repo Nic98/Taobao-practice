@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Styles/index.css';
 import App from './App.tsx';
-import DownloadBtn from './Components/DownloadBtn.tsx';
+import DownloadBtn from './Components/do'
 
 const root: ReactDOM.Root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
